@@ -15,7 +15,7 @@ const subIndex = (element, index) => (total = element - index);
 function mapArray(array, cb) {
   "use strict";
   // Write code under this line
-  const numbers = new Array(5);
+  const numbers = new Array(array.length);
   for (let i = 0; i < array.length; i += 1) {
     const element = array[i];
     const index = i;
